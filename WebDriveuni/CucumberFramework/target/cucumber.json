@@ -1,0 +1,292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5928752500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Practicesteps.setupFF()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login to account with credentials",
+        "description": "",
+        "id": "login-portal;login-to-account-with-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4786781500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Practicesteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1343591700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to \"http://www.webdriveruniversity.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "Practicesteps.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 401000200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on the login portal button",
+            "match": {
+              "location": "Practicesteps.user_clicks_on_the_login_portal_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2147415700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters \"webdriver\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 13
+                }
+              ],
+              "location": "Practicesteps.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34960700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters \"webdriver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 13
+                }
+              ],
+              "location": "Practicesteps.user_enters(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65669800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "Practicesteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41514100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should be prompted with the following prompt alert \"validation failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation failed",
+                  "offset": 61
+                }
+              ],
+              "location": "Practicesteps.the_user_should_be_prompted_with_the_following_prompt_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4043401400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Practicesteps.setupFF()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Login to account with credentials",
+        "description": "",
+        "id": "login-portal;login-to-account-with-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4677318300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Practicesteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1095623900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to \"http://www.webdriveruniversity.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "Practicesteps.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 386706200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on the login portal button",
+            "match": {
+              "location": "Practicesteps.user_clicks_on_the_login_portal_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153989300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters \"webdriver\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 13
+                }
+              ],
+              "location": "Practicesteps.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39958200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters \"webdriver123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver123",
+                  "offset": 13
+                }
+              ],
+              "location": "Practicesteps.user_enters(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45759400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "Practicesteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38277300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should be prompted with the following prompt alert \"validation succeeded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation succeeded",
+                  "offset": 61
+                }
+              ],
+              "location": "Practicesteps.the_user_should_be_prompted_with_the_following_prompt_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Portal",
+    "description": "\r\nTests around validating login portal",
+    "id": "login-portal",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
